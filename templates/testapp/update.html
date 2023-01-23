@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>UPDATE YOUR INFORMATION</h1><hr>
+    <form method="post">  
+    {% csrf_token %}
+    <p>name : <input type="text" name="name" value="{{obj.name}}"></p>
+    <p>role : <input type="text" name="role" value="{{obj.role}}"></p>
+    <p>project : <input type="text" name="project" value="{{obj.project}}"></p>
+    <p>email : <input type="text" name="email" value="{{obj.email}}"></p>
+    <p>location : <input type="text" name="location" value="{{obj.location}}"></p>
+    
+    <input type="submit" value="UPDATE">
+  </form>  
+</body>
+</html>

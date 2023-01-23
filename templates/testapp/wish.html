@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static "css/demo.css"%}">
+    <style>
+        body{
+            background: url();
+        }
+    </style>
+</head>
+<body background="blue">
+    <h1>hi karun from website students need to login</h1><br>
+    {% if obj %}
+    <table border="2px solid blue">
+        <thead>
+            <th>NAME</th>
+            <th>ROLE</th>
+            <th>PROJECT</th>
+            <th>LOCATION</th>
+            <th>EMAIL</th>
+        </thead>
+        {% for ob in obj %}
+        <tr>
+            <td>{{ob.name}}</td>
+            <td>{{ob.role}}</td>
+            <td>{{ob.project}}</td>
+            <td>{{ob.location}}</td>
+            <td>{{ob.email}}</td>
+            <td><a href="/udt/{{ob.id}}">UPDATE</a></td>
+            <td><a href="/deletee/{{ob.id}}">DELETE</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}&nbsp;<br>
+    <a href="/frm"><button type="submit" value="ADD EMPLOYEE">ADD EMPLOYEE</button></a>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="testapp.mymodel" pk="4">
+        <field name="name" type="CharField">nirmal</field>
+        <field name="role" type="CharField">.net</field>
+        <field name="project" type="CharField">claims</field>
+        <field name="email" type="CharField">nirmal@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+    <object model="testapp.mymodel" pk="5">
+        <field name="name" type="CharField">babu</field>
+        <field name="role" type="CharField">.net</field>
+        <field name="project" type="CharField">claims</field>
+        <field name="email" type="CharField">babu@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+    <object model="testapp.mymodel" pk="6">
+        <field name="name" type="CharField">pattabhi</field>
+        <field name="role" type="CharField">python</field>
+        <field name="project" type="CharField">ba</field>
+        <field name="email" type="CharField">pattabhi@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+    <object model="testapp.mymodel" pk="7">
+        <field name="name" type="CharField">jaani</field>
+        <field name="role" type="CharField">.net</field>
+        <field name="project" type="CharField">ba</field>
+        <field name="email" type="CharField">jani@gmail.com</field>
+        <field name="location" type="CharField">bngl</field>
+    </object>
+    <object model="testapp.mymodel" pk="8">
+        <field name="name" type="CharField">kalyan</field>
+        <field name="role" type="CharField">python</field>
+        <field name="project" type="CharField">tester</field>
+        <field name="email" type="CharField">kalyan@gmail.com</field>
+        <field name="location" type="CharField">hyd</field>
+    </object>
+    <object model="testapp.mymodel" pk="9">
+        <field name="name" type="CharField">sandeep</field>
+        <field name="role" type="CharField">.net</field>
+        <field name="project" type="CharField">nonclaims</field>
+        <field name="email" type="CharField">sandeep@gmail.com</field>
+        <field name="location" type="CharField">pune</field>
+    </object>
+    <object model="testapp.mymodel" pk="10">
+        <field name="name" type="CharField">balu</field>
+        <field name="role" type="CharField">python</field>
+        <field name="project" type="CharField">l&amp;a</field>
+        <field name="email" type="CharField">manager@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+    <object model="testapp.mymodel" pk="12">
+        <field name="name" type="CharField">srinu</field>
+        <field name="role" type="CharField">python</field>
+        <field name="project" type="CharField">l&amp;a</field>
+        <field name="email" type="CharField">manager@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+    <object model="testapp.mymodel" pk="13">
+        <field name="name" type="CharField">karunbharath</field>
+        <field name="role" type="CharField">python</field>
+        <field name="project" type="CharField">l&amp;a</field>
+        <field name="email" type="CharField">manager@gmail.com</field>
+        <field name="location" type="CharField">mumbai</field>
+    </object>
+</django-objects>
